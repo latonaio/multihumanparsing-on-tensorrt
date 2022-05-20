@@ -1,16 +1,14 @@
 # multihumanparsing-on-tensorrt
-multihumanparsing-on-tensorrt は、DeepStream 上で Multi-Human Parsing の AIモデル を動作させるマイクロサービスです。  
+multihumanparsing-on-tensorrt は、TensorRT 上で Multi-Human Parsing の AIモデル を動作させるマイクロサービスです。  
 
 ## 動作環境
-- NVIDIA 
-    - DeepStream
 - Multi-Human Parsing
 - Docker
 - TensorRT Runtime
 
 ## Multi-Human Parsingについて
 [Multi-Human Parsing](https://github.com/ZhaoJ9014/Multi-Human-Parsing) は、画像内の身体の部分や衣服のアイテムに属する意味的に一貫した領域に分割し、各ピクセルに意味的な部分のラベルと当該領域が属するIDを割り当てるAIモデルです。  
-[Multi-Human Parsing](https://github.com/ZhaoJ9014/Multi-Human-Parsing) は、特徴抽出にResNet18を使用しており、混雑した場所でも正確に物体検出を行うことができます。
+[Multi-Human Parsing](https://github.com/ZhaoJ9014/Multi-Human-Parsing) は、特徴抽出にResNet18を使用しています。
 
 ## 動作手順
 ### Dockerコンテナの起動
